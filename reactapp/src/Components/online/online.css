@@ -64,38 +64,3 @@
     
 
 }
-.rightbartitle{
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-.rightbarfollowingimage{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-.rightbarinfoitem{
-    margin-bottom: 10px;
-}
-.rightbarinfo{
-    margin-bottom: 30px;
-}
-.rightbarinfokey{
-    font-weight: 500;
-    margin-right: 15px;
-    color: grey;
-
-}
-.rightbarfollowings{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-.rightbarfollowing{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
