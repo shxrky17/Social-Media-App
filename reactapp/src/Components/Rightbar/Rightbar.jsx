@@ -4,7 +4,7 @@ import { RssFeed } from "@mui/icons-material"
 import { Users } from "../../dummyData"
 import Online from '../online/Online'
 function Rightbar({ profile }) {
-
+  const PF=process.env.REACT_APP_PUBLIC_FOLDER
   const Homerightbar = () => {
     return (
       <>
@@ -49,28 +49,28 @@ function Rightbar({ profile }) {
         <h4 className="rightbartitle">user friends</h4>
         <div className="rightbarfollowings">
           <div className="rightbarfollowing">
-            <img src="assets/person/1.jpeg" alt="" className="rightbarfollowingimage" />
+            <img src={`${PF}person/1.jpeg`} alt="" className="rightbarfollowingimage" />
             <span className="rightfollowingname">Lalllu SAI</span>
           </div>
 
           <div className="rightbarfollowing">
-            <img src="assets/person/2.jpeg" alt="" className="rightbarfollowingimage" />
+            <img src={`${PF}person/3.jpeg`} alt="" className="rightbarfollowingimage" />
             <span className="rightfollowingname">Lalllu SAI</span>
           </div>
 
           <div className="rightbarfollowing">
-            <img src="assets/person/3.jpeg" alt="" className="rightbarfollowingimage" />
+            <img src={`${PF}person/4.jpeg`} alt="" className="rightbarfollowingimage" />
             <span className="rightfollowingname">Lalllu SAI</span>
           </div>
 
           <div className="rightbarfollowing">
-            <img src="assets/person/4.jpeg" alt="" className="rightbarfollowingimage" />
+            <img src={`${PF}person/5.jpeg`} alt="" className="rightbarfollowingimage" />
             <span className="rightfollowingname">Lalllu SAI</span>
           </div>
 
 
           <div className="rightbarfollowing">
-            <img src="assets/person/5.jpeg" alt="" className="rightbarfollowingimage" />
+            <img src={`${PF}person/6.jpeg`} alt="" className="rightbarfollowingimage" />
             <span className="rightfollowingname">Lalllu SAI</span>
           </div>
         </div>

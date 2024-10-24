@@ -5,6 +5,7 @@ import Sidebar from '../../../Components/Sidebar/Sidebar'
 import  Feed  from "../../../Components/feed/Feed"
 import Rightbar from '../../../Components/Rightbar/Rightbar'
 function Profile() {
+  const PF=process.env.REACT_APP_PUBLIC_FOLDER
   return (
     <>
     <Topbar/>
@@ -13,8 +14,8 @@ function Profile() {
     <div className="profileright">
         <div className="profilerighttop">
           <div className="profilecover">
-          <img src="assets/person/3.jpeg" className="profilecoverimage"/>
-          <img src="assets/person/7.jpeg" className="profileuserimage"/>
+          <img src={`${PF}post/3.jpeg`} className="profilecoverimage"/>
+          <img src={`${PF}person/7.jpeg`} className="profileuserimage"/>
           </div>
           
         </div>

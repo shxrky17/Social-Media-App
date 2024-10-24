@@ -16,6 +16,10 @@ const postSchema = new mongoose.Schema({
         type: Array,
         default: []
     },
+    post:{
+        type: String,
+        defaul:""
+    }
 }, { timestamps: true });
 
 module.exports = mongoose.model("Post", postSchema); // Export as "Post"
